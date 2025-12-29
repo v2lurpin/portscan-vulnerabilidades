@@ -34,11 +34,16 @@ Designed for network administrators and security auditors to quickly assess the 
 
 ## Usage
 
-Run the script directly from the terminal:
+### Option 1: GUI Version (Recommended)
+For a modern visual experience with dark mode and interactive controls:
 
 ```bash
+python portscan_gui.py
+
+### Option 2: CLI Version (Server/Terminal)
+For headless servers or quick command-line usage:
+```bash
 python portscan.py
-```
 
 The application will prompt for the following configurations:
 1.  **Target:** Enter the IP address or Hostname (e.g., `scanme.nmap.org`).
@@ -92,8 +97,14 @@ Projetado para administradores de rede e auditores de segurança para a avaliaç
 
 ## Utilização
 
+### Opção 1: Versão GUI Version (Recomendada)
+Para uma experiência visual moderna com dark mode e controles interativos:
 Execute o script diretamente via terminal:
+```bash
+python portscan_gui.py
 
+### Opção 2: Versão CLI (Server/Terminal)
+Para servidores sem interface gráfica ou uso rápido pela linha de comando:
 ```bash
 python portscan.py
 ```
